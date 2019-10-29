@@ -41,8 +41,8 @@ h3 {
 
 /****************** Class Selectors *******************/
 .profile-pic{
-  width: 100px;
-  height: 100px;
+  width: 10%;
+  height: 10%;
 }
 .top-container {
   position: relative;
