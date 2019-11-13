@@ -1,5 +1,102 @@
-/*****************   TAG SELECTORS *****************/
-div {
+/* ****************   TAG SELECTORS *****************/
+
+body {
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+}
+
+h2 {
+  color: #E09E14;
+}
+
+.dark-background {
+  background-color: #000;
+  color: #FFF;
+}
+
+/* .light-background {
+  background-color: #FFF;
+} */
+
+.navbar {
+  padding: 0 0 0;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light"
+}
+
+.name {
+  padding-top: 15%;
+  /* color: #E09E14; */
+}
+
+.title-heading {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+#title {
+  background-image: url("../images/africa-meteorite.jpg");
+  /* background-size: cover; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 30%;
+  text-align: center;
+}
+
+/* .container-padding {
+  padding: 4% 0%;
+} */
+
+
+/* About Me */
+.profile-pic {
+  width: 50%;
+  height: 60%;
+  border-radius: 100%;
+  padding: 0 0 0 0;
+}
+
+#aboutme {
+  padding: 3% 15% 6%;
+}
+.about-me {
+  text-align: left;
+}
+
+.certificate-title {
+  font-size: 20px;
+}
+
+.aboutme-container {
+  padding-top: 3%;
+  font-size: 15px;
+    line-height: 1.64;
+}
+
+
+
+/* div {
   margin-left: 0px;
   margin-right: 0px;
   margin-top: 0px;
@@ -40,7 +137,7 @@ body {
 h1 {
   font-size: 5.625rem;
   /*** 16px = 100% = 1em ***/
-  margin: 50px auto 0 auto;
+  /* margin: 50px auto 0 auto;
   color: #66bfbf;
   line-height: 1.5;
   font-family: 'Sacramento', cursive;
@@ -64,7 +161,7 @@ p {
 }
 
 /****************** Class Selectors *******************/
-.profile-pic {
+/* .profile-pic {
   width: 200px;
   height: 200px;
 }
@@ -162,7 +259,7 @@ font-family: 'Montserrat', sans-serif;
   background-image: -o-linear-gradient(top, #30e3cb, 2bc4ad);
   background-image: linear-gradient(to bottom, #30e3cb, 2bc4ad);
   text-decoration: none;
-}
+} */
 
 /* .sports-description {
   clear: right;
